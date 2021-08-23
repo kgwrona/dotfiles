@@ -1,0 +1,30 @@
+### ALIASES ###
+
+# navigation
+alias ..='cd ..'
+
+# pacman & yay
+alias pacsyu='sudo pacman -Syu'
+alias yaysyu='yay -Syu'
+
+# change ls to exa
+alias ls='exa --color=always --group-directories-first'
+alias ll='ls -l'
+alias la='ls -la'
+alias l.='exa -a | egrep "^\." --color=always'
+
+# colored grep output
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
+# safety
+alias cp='cp -i'
+alias rm='rm -i'
+alias mv='mv -i'
+
+# editors
+alias vim='nvim'
+
+# other 
+alias swaycfg='vim ~/.config/sway/config'
