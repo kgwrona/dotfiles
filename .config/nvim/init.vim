@@ -13,6 +13,7 @@ call plug#begin()
 	Plug 'PotatoesMaster/i3-vim-syntax'
 	Plug 'vim-python/python-syntax'
 	Plug 'sersorrel/vim-lilypond'
+	Plug 'lervag/vimtex'
 
 call plug#end()
 
